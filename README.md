@@ -3,7 +3,7 @@
 **Actividad 3: Enfoque Modular y Diseño Top-Down**
 
 Materia: Laboratorio de Programación (LPR) — E.E.S.T. N° 1 "Eduardo Ader", Vicente López
-Curso: 5° Año — 3° Grupos A-B
+Curso: 5° Año — 3° Grupo A
 
 ---
 
@@ -12,9 +12,9 @@ Curso: 5° Año — 3° Grupos A-B
 | Dato | Detalle |
 |---|---|
 | **Estudiante** | Cheheid, Malek |
-| **Profesor** | Mansilla Muñoz, York Elías |
+| **Profesor** | Ganduglia, Yamil |
 | **Materia** | Laboratorio de Programación (LPR) |
-| **Curso** | 5° Año — 3° "A-B" |
+| **Curso** | 5° Año — 3° "A" |
 | **Escuela** | E.E.S.T. N° 1 "Eduardo Ader" — Vicente López |
 | **Año** | 2026 — 1° Cuatrimestre |
 | **Licencia** | MIT (ver archivo [LICENSE](LICENSE)) |
