@@ -172,7 +172,7 @@ Area del circulo: 201.062 cm^2
 ## Entregables
 
 - [x] `src/main.cpp` — código fuente modular en C++
-- [ ] `docs/InformeProyectoCALCULOAREA.pdf` — informe en normas APA v7 *(en elaboración)*
+- [x] `docs/InformeProyectoCALCULOAREA.pdf` — informe en normas APA v7
 - [x] `docs/ConsignaActividad3.pdf` — enunciado original de la actividad
 - [x] `capturas/compilacion_area.png` — evidencia de compilación y ejecución
 - [x] `capturas/diagrama_flujo.png` — diagrama de flujo del programa
