@@ -1,0 +1,44 @@
+# ============================================================
+# .gitignore - CALCULOAREA
+# Laboratorio de Programación - E.E.S.T. N° 1 "Eduardo Ader"
+# Objetivo: evitar que Git versione carpetas de configuración
+#            y artefactos de compilación.
+# ============================================================
+
+# --- Configuración de editors (carpeta .vscode según la consigna) ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Archivos de sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Objetos y binarios de compilación de C++ ---
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+
+# --- Ejecutables del proyecto ---
+src/area.exe
+src/*.exe
+
+# --- Archivos temporales / de depuración ---
+*.log
+*.tmp
+*.bak
+.vs/
+
+# --- Sistema operativo y herramientas de terceros ---
+__pycache__/
+node_modules/
+
+# --- Informe APA v7 en elaboracion ---
+# Se sigue trabajando localmente. Se versiona recien cuando este
+# terminado y listo para entregar.
+docs/InformeProyectoCALCULOAREA.pdf
