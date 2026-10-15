@@ -181,14 +181,4 @@ Area del circulo: 201.062 cm^2
 
 ---
 
-## Referencias
-
-- [cppreference.com](https://en.cppreference.com/) — referencia oficial de C++
-- [Microsoft Learn C++](https://learn.microsoft.com/es-es/cpp/) — documentación oficial
-- [MSVC for Windows](https://learn.microsoft.com/es-es/cpp/build/?view=msvc-170) — guía de compilación
-- Mansilla Muñoz, Y. E. (2026). *Actividad 3: Enfoque modular y diseño Top-Down*
-  [Documento institucional]. E.E.S.T. N° 1 "Eduardo Ader", Vicente López.
-
----
-
 **Fecha de entrega:** 17 de septiembre de 2026.
