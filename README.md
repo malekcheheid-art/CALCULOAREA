@@ -1,12 +1,13 @@
-# 🎯 CALCULADORA DE ÁREA MODULAR
+# CALCULADORA DE ÁREA MODULAR
 
 **Actividad 3: Enfoque Modular y Diseño Top-Down**
+
 Materia: Laboratorio de Programación (LPR) — E.E.S.T. N° 1 "Eduardo Ader", Vicente López
 Curso: 5° Año — 3° Grupos A-B
 
 ---
 
-## 👤 Autor
+## Autor
 
 | Dato | Detalle |
 |---|---|
@@ -20,13 +21,13 @@ Curso: 5° Año — 3° Grupos A-B
 
 ---
 
-## 📌 ¿Qué hace este programa?
+## Qué hace este programa
 
 Calcula el **área de un círculo** aplicando un **diseño Top-Down**: en lugar de resolver
 todo dentro de `main()`, el problema se descompone en **módulos independientes**
 (funciones) con una responsabilidad única.
 
-Además, como **bonus de gamificación**, la consola dibuja una **diana de tiro en ASCII**
+Además, como bonus de gamificación, la consola dibuja una **diana de tiro en ASCII**
 cuya escala depende del radio ingresado.
 
 ### Fórmula matemática utilizada
@@ -38,7 +39,7 @@ cuya escala depende del radio ingresado.
 
 ---
 
-## 🧠 Enfoque Top-Down aplicado
+## Enfoque Top-Down aplicado
 
 El diseño Top-Down parte del problema general y lo subdivide hasta llegar a partes
 pequeñas y resolubles:
@@ -47,26 +48,30 @@ pequeñas y resolubles:
 PROBLEMA GENERAL
 "Calcular el área de un círculo"
         │
-        ▼  Se divide en
-   ┌────┴─────┐
-   │          │
-(main)   (módulo)
-ENTRADA   calcularAreaCirculo(radio)
-VALIDAR      │
-   │          │  Recibe el radio, aplica π × r²
-   ▼          ▼
-SALIDA ◄── RETURN area  (devuelve el resultado a main)
+        ▼  se divide en
+  ┌─────────────┴─────────────┐
+  │                           │
+  ▼                           ▼
+main()                calcularAreaCirculo()
+- declarar variable             │
+- pedir el radio                │  recibe el radio
+- validar el dato               │  aplica π × r²
+  │                             │
+  ▼                             ▼
+muestra el área          RETURN area
+                              │
+                              └────► vuelve a main()
 ```
 
 **Beneficios que aporta la modularización:**
 
-- 🔍 **Depuración más rápida** — los errores se localizan dentro de un módulo concreto.
-- ♻️ **Reutilización de código** — la función sirve para cualquier otro programa.
-- 👥 **Trabajo en equipo ordenado** — cada persona puede responsablemente de un módulo.
+- **Depuración más rápida** — los errores se localizan dentro de un módulo concreto.
+- **Reutilización de código** — la función sirve para cualquier otro programa.
+- **Trabajo en equipo ordenado** — cada persona puede encargarse de un módulo.
 
 ---
 
-## 📂 Estructura de carpetas
+## Estructura de carpetas
 
 ```
 CALCULOAREA/
@@ -85,7 +90,7 @@ CALCULOAREA/
 
 ---
 
-## 🔧 Comandos de compilación y ejecución (Windows)
+## Comandos de compilación y ejecución (Windows)
 
 Abrí la terminal integrada de **VS Code** (`Ctrl + Ñ`) en la raíz de la carpeta
 `CALCULOAREA` y ejecutá:
@@ -108,7 +113,7 @@ g++ src/main.cpp -o src/area.exe
 
 ---
 
-## 💻 Ejemplo de salida
+## Ejemplo de salida
 
 ```
 =====================================================
@@ -130,7 +135,7 @@ Area del circulo: 201.062 cm^2
 
 ---
 
-## 🔎 Glosario técnico
+## Glosario técnico
 
 | Concepto | Definición |
 |---|---|
@@ -142,7 +147,7 @@ Area del circulo: 201.062 cm^2
 
 ---
 
-## 🧩 Los 4 bloques resueltos en `src/main.cpp`
+## Los 4 bloques resueltos en `src/main.cpp`
 
 | # | Bloque | Solución |
 |---|---|---|
@@ -153,18 +158,18 @@ Area del circulo: 201.062 cm^2
 
 ---
 
-## 🛡️ Buenas prácticas implementadas
+## Buenas prácticas implementadas
 
-- **Filtro de consistencia** — `if (radioEstudiante <= 0)` evita Attempting calcular un
-  área con un radio negativo o nulo, y devuelve código de error `1`.
+- **Filtro de consistencia** — `if (radioEstudiante <= 0)` evita calcular un área con un
+  radio negativo o nulo, y devuelve el código de error `1`.
 - **Constante protegida** — `const double PI = 3.1415926535;` bloquea el valor de π en RAM.
 - **Variable local** — `r` es el parámetro del módulo; no existe fuera de la función.
-- **Códigos de salida** — `return 0` (éxito) / `return 1` (error) permiten a otros
+- **Códigos de salida** — `return 0` (éxito) y `return 1` (error) permiten a otros
   programas saber cómo terminó la ejecución.
 
 ---
 
-## 📄 Entregables
+## Entregables
 
 - [x] `src/main.cpp` — código fuente modular en C++
 - [ ] `docs/InformeProyectoCALCULOAREA.pdf` — informe en normas APA v7 *(en elaboración)*
@@ -176,14 +181,14 @@ Area del circulo: 201.062 cm^2
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - [cppreference.com](https://en.cppreference.com/) — referencia oficial de C++
 - [Microsoft Learn C++](https://learn.microsoft.com/es-es/cpp/) — documentación oficial
 - [MSVC for Windows](https://learn.microsoft.com/es-es/cpp/build/?view=msvc-170) — guía de compilación
-- Mansilla Muñoz, Y. E. (2026). *Actividad 3: Enfoque modular y diseño Top-Down* [Documento
-  institucional]. E.E.S.T. N° 1 "Eduardo Ader", Vicente López.
+- Mansilla Muñoz, Y. E. (2026). *Actividad 3: Enfoque modular y diseño Top-Down*
+  [Documento institucional]. E.E.S.T. N° 1 "Eduardo Ader", Vicente López.
 
 ---
 
-> 💡 **Fecha de entrega:** 17 de septiembre de 2026.
+**Fecha de entrega:** 17 de septiembre de 2026.
