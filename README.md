@@ -11,8 +11,8 @@ Curso: 5° Año — 3° Grupo A
 
 | Dato | Detalle |
 |---|---|
-| **Estudiante** | Cheheid, Malek |
-| **Profesor** | Ganduglia, Yamil |
+| **Estudiante** | Cheheid Malek |
+| **Profesor** | Ganduglia Yamil |
 | **Materia** | Laboratorio de Programación (LPR) |
 | **Curso** | 5° Año — 3° "A" |
 | **Escuela** | E.E.S.T. N° 1 "Eduardo Ader" — Vicente López |
