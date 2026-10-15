@@ -37,8 +37,3 @@ src/*.exe
 # --- Sistema operativo y herramientas de terceros ---
 __pycache__/
 node_modules/
-
-# --- Informe APA v7 en elaboracion ---
-# Se sigue trabajando localmente. Se versiona recien cuando este
-# terminado y listo para entregar.
-docs/InformeProyectoCALCULOAREA.pdf
